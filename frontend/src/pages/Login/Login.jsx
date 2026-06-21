@@ -1,10 +1,11 @@
 import "./login.css";
+import logo from "../../assets/logo.png";
 
 function Login() {
   return (
     <div className="login-container">
       <form>
-        <image src="../../assets/logo.png" alt="Tun Pipe Shop Logo" className="logo" />
+        <img src={logo} alt="Tun Pipe Shop Logo" className="logo" />
         <label htmlFor="username">Username</label>
         <br />
         <input type="text" id="username" name="username" required />
